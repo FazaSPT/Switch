@@ -88,8 +88,8 @@ section {
   background-color: #2A4158;
   color: #fff;
   margin: auto;
-  right: 85.5%;
-  top: 70%;
+  right: 86%;
+  top: 65%;
 }
 
 .login {
@@ -281,7 +281,7 @@ section {
   letter-spacing: 1px;
 }
 
-/* Contact */
+/* Contact TEST 1 */
 /* .contact-box{
   border-radius: 20px;
 	max-width: 1500px;
@@ -381,7 +381,76 @@ textarea{
   color: #31373d;
 } */
 
+/* Contact */
+.contact .container{
+  width: 60%;
+  padding: 45px;
+  position: absolute;
+  left: 50%;
+  top: 430%;
+  transform: translate(-50%,-50%);
+}
+.contact .row{
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
+ 
+}
+.contact .col-md-7{
+  padding: 20px;
+}
+.contact .col-md-5{
+  background: #2A4158;
+  padding: 20px;
+  color: white;
+
+}
+.form-control {
+  height: 52px;
+  background: #385674;
+  color: #000;
+  font-size: 14px;
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bi{
+  font-size: 20px;
+}
+.contact .d-flex p{
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact input, textarea {
+  border-radius: 15px;
+}
+
+.contact {
+  border-radius: 20px;
+}
+
+.btn-contact {
+  background-color: #3466AA;
+  color: #fff;
+}
+
+.btn-contact:hover {
+  color: #fff;
+  background-color: #385674;
+}
+
 /* Responsive Mobile */
+
+@media only screen and (max-width:600px){
+  .contact .container{
+      width: 100%;
+      position: absolute;
+      left: 50%;
+      top: 600%;
+  }
+}
 
 @media screen and (max-width: 880px){
 	.contact-box{
@@ -392,7 +461,7 @@ textarea{
 	}
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 600px){
   .astronout-animate {
     display: flex;
     position: relative;
